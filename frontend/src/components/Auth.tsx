@@ -25,6 +25,10 @@ function Auth({type}: {type: "signin" | "signup"}) {
   return (
     <>
         <div className='h-screen flex flex-col justify-center ml-[20px] mr-[20px]'>
+            <div className="flex ml-[113px] lg:ml-[255px] mb-3">
+            <h1 className="text-5xl font-bold">Blo</h1>
+            <h1 className="text-5xl font-bold text-green-600">GO</h1>
+            </div>
             <h1 className='text-4xl font-bold ml-6 lg:ml-[170px]'>Create an account</h1>
             <div className={`flex text-md ml-[40px] lg:ml-[205px] mt-3`}>
                 <h1 className="ml-[23px] lg:ml-0">{type === "signup" ? "Already have an account?" : "Dont have an account"}</h1>

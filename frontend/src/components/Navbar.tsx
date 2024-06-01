@@ -6,7 +6,10 @@ function Navbar({authorName}: {authorName: string}) {
     <div>
         <div className='flex items-center justify-between lg:px-16 px-6 mt-3'>
            <Link to='/blogs'>
-           <h1 className="font-bold text-xl">medium</h1>
+           <div className="flex">
+            <h1 className="text-2xl lg:text-3xl font-bold">Blo</h1>
+            <h1 className="text-2xl lg:text-3xl font-bold text-green-600">GO</h1>
+            </div>
            </Link>
             <div>
                 <Link to='/publish'>
