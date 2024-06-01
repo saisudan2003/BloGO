@@ -1,4 +1,3 @@
-import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 function EditFullBlogText({title, content}: {title: string, content: string}) {

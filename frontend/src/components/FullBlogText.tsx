@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 function FullBlogText({title, content}: {title: string, content: string}) {
   return (

@@ -1,8 +1,7 @@
-import React from 'react'
 import BlogCard from '../components/BlogCard'
 import Navbar from '../components/Navbar'
 import { useBlogs } from '../hooks'
-import {Link} from 'react-router-dom'
+
 
 function Blogs() {
     const {loading, blogs} = useBlogs()
